@@ -6,7 +6,7 @@ import './styles/style.scss'
 const App = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/project-2" component={Home}/>
+      <Route exact path="/" component={Home}/>
     </Switch>
   </BrowserRouter>
 )
