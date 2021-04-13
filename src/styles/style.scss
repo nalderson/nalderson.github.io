@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'britanica';
+  font-style: normal;
+  font-weight: normal;
+  src: local('britanica-black'), url('../fonts/britanica-black.woff') format('woff');
+}
+
+body {
+  font-family: britanica;
+}
