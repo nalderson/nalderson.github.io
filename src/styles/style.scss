@@ -8,7 +8,97 @@
 body {
   font-family: britanica;
   background-color: #CAFFD0;
+  width: 100vw;
 }
+
+// Nav - mobile first:
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color: black;
+ }
+
+.nav-buttons {
+  color :black;
+  border: none;
+  background-color: #CAFFD0;
+  margin-left: -10px;
+  padding-top: 650px;
+  padding-bottom: 10px;
+}
+
+#about-nav-button {
+border-top: black solid 2px;
+border-bottom: black solid 2px;
+}
+
+#ad-nav-button {
+  border-top: black solid 2px;
+  border-bottom: black solid 2px;
+}
+
+.nav-text {
+  font-size: 70px;
+  font-family: Britanica-Bold;
+  margin: 0;
+}
+
+// DESKTOP:
+@media only screen and (min-width: 600px) {
+  .navbar { 
+    display: flex;
+    width: 30vw;
+    height: 100vh;
+    margin-left: 1040px;
+}
+
+.nav-div {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.nav-buttons {
+  width: 140px;
+  border: none;
+  margin-top: -10px;
+  height: 101%;
+}
+
+#about-nav-button {
+  border-left: black 3px solid;
+  border-bottom: none;
+}
+
+#web-nav-button {
+  border-left: black 3px solid;
+}
+
+#ad-nav-button {
+  border-left: black 3px solid;
+  border-bottom: none;
+}
+
+a:link {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-text{
+  transform: rotate(270deg);
+  margin: 0;
+}
+}
+
+
+
 
 // Homepage 
 .homepage {
