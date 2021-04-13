@@ -2,7 +2,7 @@
   font-family: 'britanica';
   font-style: normal;
   font-weight: normal;
-  src: local('britanica-black'), url('../fonts/britanica-black.woff') format('woff');
+  src: local('britanica-bold'), url('../fonts/britanica-bold.woff') format('woff');
 }
 
 body {
@@ -28,11 +28,9 @@ body {
   font-size: 170px;
   margin-bottom: 0px;
   margin-top: 0px;
-  font-family: Britanica;
 }
 
 .title-email {
-  font-family: Britanica;
   font-size:100px;
   line-height: 0.85;
   margin-top: 0;
@@ -150,7 +148,6 @@ margin-right: 5px;
 
 .projects {
   font-size: 120px;
-  font-family: Britanica;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -162,7 +159,6 @@ margin-right: 5px;
 
 .project-title {
   font-size: 80px;
-  font-family: Britanica;
   margin-top: 20px;
   margin-bottom: 0px;
 }
@@ -185,7 +181,6 @@ margin-right: 5px;
   display: flex;
   flex-direction: column;
   font-size: 25px;
-  font-family: Britanica;
   margin-bottom: 0px;
   margin-top: 20px;
 }
@@ -203,7 +198,6 @@ margin-right: 5px;
 
 #project-web-link {
   font-size: 25px;
-  font-family: Britanica;
 }
 
 #project-git-link {
