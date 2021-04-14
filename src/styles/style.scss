@@ -45,7 +45,7 @@ body {
 
 .dark {
   background-color: black !important;
-  color: #CAFFD0 !important;
+  color: white !important;
 }
 
 #about-nav-button {
@@ -468,52 +468,52 @@ margin-right: 5px;
 
 
 // MOBILE NAV MEDIA QUERY:
-// @media only screen and (min-width: 360px) and (max-width: 500px) {
-//   .navbar {
-//     display: flex;
-//     position: fixed;
-//     bottom: 0;
-//     width: 100%;
-//   }
+@media only screen and (min-width: 360px) and (max-width: 500px) {
+  .navbar {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
   
-//   .nav-div {
-//     display: flex;
-//     flex-direction: column;
-//     width: 100vw;
-//   }
+  .nav-div {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
   
-//   a:link {
-//     text-decoration: none;
-//     color: black;
-//   }
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
   
-//   a:visited { 
-//     text-decoration: none; 
-//     color: black;
-//    }
+  a:visited { 
+    text-decoration: none; 
+    color: black;
+   }
   
-//   .nav-buttons {
-//     color :black;
-//     border: none;
-//     background-color: #CAFFD0;
-//     margin-left: -10px;
-//   }
+  .nav-buttons {
+    color :black;
+    border: none;
+    background-color: #CAFFD0;
+    margin-left: -10px;
+  }
   
-//   #about-nav-button {
-//     border-left: none;
-//     border-top: black 3px solid;
-//     border-bottom: black 3px solid;
-//   }
+  #about-nav-button {
+    border-left: none;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid;
+  }
   
-//   #ad-nav-button {
-//     border-top: black 3px solid;
-//     border-bottom: black 3px solid;
-//   }
+  #ad-nav-button {
+    border-top: black 3px solid;
+    border-bottom: black 3px solid;
+  }
   
-//   .nav-text {
-//     font-size: 20px;
-//   }
-//   }
+  .nav-text {
+    font-size: 20px;
+  }
+  }
 
 
 

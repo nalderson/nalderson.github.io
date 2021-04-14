@@ -8,7 +8,7 @@ export default function Navbar() {
   const [advert, updateAdvert] = useState(false)
 
   function reload() { 
-    if (window.location.href === 'http://natasha-alderson.com/about-me/') {
+    if (window.location.href === 'https://natasha-alderson.com/about-me/') {
       updateAbout(true)
       updateWeb(false)
       updateAdvert(false)
@@ -16,7 +16,7 @@ export default function Navbar() {
       updateWeb(true)
       updateAbout(false)
       updateAdvert(false)
-    } else if (window.location.href === 'natasha-alderson.com/advertising/') {
+    } else if (window.location.href === 'https://natasha-alderson.com/advertising/') {
       updateAdvert(true)
       updateAbout(false)
       updateWeb(false)
