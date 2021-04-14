@@ -8,7 +8,7 @@ export default function Navbar() {
   const [advert, updateAdvert] = useState(false)
 
   function reload() { 
-    if (window.location.href === 'http://localhost:8000/about-me/') {
+    if (window.location.href === 'https://natasha-alderson.com/about-me/') {
       updateAbout(true)
       updateWeb(false)
       updateAdvert(false)
