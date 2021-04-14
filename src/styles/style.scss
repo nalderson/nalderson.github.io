@@ -9,51 +9,18 @@ body {
   font-family: britanica;
   background-color: #CAFFD0;
   width: 100vw;
+  height: 100vh;
 }
 
-// Nav - mobile first:
+// NAVBAR DESKTOP:
 
-a:link {
-  text-decoration: none;
-  color: black;
-}
-
-a:visited { 
-  text-decoration: none; 
-  color: black;
- }
-
-.nav-buttons {
-  color :black;
-  border: none;
-  background-color: #CAFFD0;
-  margin-left: -10px;
-  padding-top: 650px;
-  padding-bottom: 10px;
-}
-
-#about-nav-button {
-border-top: black solid 2px;
-border-bottom: black solid 2px;
-}
-
-#ad-nav-button {
-  border-top: black solid 2px;
-  border-bottom: black solid 2px;
-}
-
-.nav-text {
-  font-size: 70px;
-  font-family: Britanica-Bold;
-  margin: 0;
-}
-
-// DESKTOP:
 @media only screen and (min-width: 600px) {
   .navbar { 
     display: flex;
+    align-items: flex-end;
     width: 30vw;
     height: 100vh;
+    position: fixed;
     margin-left: 1040px;
 }
 
@@ -63,6 +30,7 @@ border-bottom: black solid 2px;
   width: 30vw;
   height: 100vh;
   position: fixed;
+  text-align: center;
 }
 
 .nav-buttons {
@@ -70,6 +38,14 @@ border-bottom: black solid 2px;
   border: none;
   margin-top: -10px;
   height: 101%;
+  color :black;
+  border: none;
+  background-color: #CAFFD0;
+}
+
+.dark {
+  background-color: black !important;
+  color: #CAFFD0 !important;
 }
 
 #about-nav-button {
@@ -89,16 +65,23 @@ border-bottom: black solid 2px;
 a:link {
   width: 100%;
   height: 100%;
+  text-decoration: none;
+  color: black;
 }
+
+a:visited { 
+  text-decoration: none; 
+  color: black;
+ }
 
 .nav-text{
   transform: rotate(270deg);
-  margin: 0;
+  margin-top: 85vh;
+  font-size: 70px;
+  font-family: britanica;
+  width: inherit;
 }
 }
-
-
-
 
 // Homepage 
 .homepage {
@@ -111,6 +94,7 @@ a:link {
   display: flex;
   flex-direction: column;
   margin-left: 30px;
+  width: inherit;
 }
 
 .nat {
@@ -118,6 +102,7 @@ a:link {
   font-size: 170px;
   margin-bottom: 0px;
   margin-top: 0px;
+  width: inherit;
 }
 
 .title-email {
@@ -130,7 +115,7 @@ a:link {
 .footer {
 display: flex;
 flex-direction: row;
-margin-bottom: 10px;
+margin-bottom: 1vh;
 }
 
 .web-design-dev {
@@ -309,3 +294,228 @@ margin-right: 5px;
 #famous-five {
   margin-bottom: 4px;
 }
+
+
+// MEDIA QUERIES TO COVER - DESKTOP / TABLET:
+
+// Below media query not working
+@media only screen and (min-width: 2560px) {}
+
+@media only screen and (min-width: 1920px) {
+  .navbar { 
+    margin-left: 1490px !important;
+  }
+
+.nav-text {
+  font-size: 110px !important;
+ }
+
+.nat {
+  font-size: 230px !important;
+}
+
+.title-email {
+  font-size: 130px !important;
+}
+
+.web-design-dev {
+  font-size: 30px !important;
+  }
+
+.about-me-info {
+  font-size: 95px !important;
+}
+
+.back-button {
+  font-size: 170px !important;
+}
+
+#about-back-text {
+  margin-left: 270px !important;
+}
+
+.about-email {
+  font-size: 95px !important;
+}
+
+.skills {
+  font-size: 24px !important;
+}
+
+#web-back {
+  margin-left: 475px !important;
+}
+
+#ad-back {
+  margin-left: 317px !important;
+}
+
+.projects {
+  font-size: 170px !important;
+}
+
+.project-title {
+  font-size: 100px !important;
+}
+
+.project-description {
+  font-size: 30px !important;
+}
+
+.tech-used {
+  font-size: 35px !important;
+}
+
+.tech-list {
+  font-size: 25px !important;
+}
+
+#project-web-link {
+  font-size: 35px !important;
+}
+
+#project-git-link {
+  font-size: 35px !important;
+}
+}
+
+// MEDIA QUERY NOT WORKING
+@media only screen and (min-width: 1680px) {}
+@media only screen and (min-width: 1600px) {}
+@media only screen and (min-width: 1536px) {}
+@media only screen and (min-width: 1440px) {}
+// MEDIA QUERY NOT WORKING
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+}
+
+@media only screen and (min-width: 1280px) {
+  .navbar { 
+    margin-left: 875px !important;
+}
+
+  .nav-text {
+    font-size: 80px !important;
+  }
+
+  .nat {
+    font-size: 160px !important;
+  }
+
+  .title-email {
+    font-size: 90px !important;
+  }
+
+  .web-design-dev {
+    font-size: 20px !important;
+    }
+
+  .about-me-info {
+    font-size: 60px !important;
+  }
+
+  .back-button {
+    font-size: 110px !important;
+  }
+
+  #about-back-text {
+    margin-left: 65px !important;
+  }
+
+  .about-email {
+    font-size: 60px !important;
+  }
+
+  .skills {
+    font-size: 15px !important;
+  }
+
+  #web-back {
+    margin-left: 168px !important;
+  }
+
+  #ad-back {
+    margin-left: 65px !important;
+  }
+
+  .projects {
+    font-size: 110px !important;
+  }
+
+  .project-title {
+    font-size: 70px !important;
+  }
+
+  .project-description {
+    font-size: 17px !important;
+  }
+
+  .tech-used {
+    font-size: 22px !important;
+  }
+
+  .tech-list {
+    font-size: 15px !important;
+  }
+
+  #project-web-link {
+    font-size: 22px !important;
+  }
+
+  #project-git-link {
+    font-size: 22px !important;
+  }
+}
+
+
+// MOBILE NAV MEDIA QUERY:
+// @media only screen and (min-width: 360px) and (max-width: 500px) {
+//   .navbar {
+//     display: flex;
+//     position: fixed;
+//     bottom: 0;
+//     width: 100%;
+//   }
+  
+//   .nav-div {
+//     display: flex;
+//     flex-direction: column;
+//     width: 100vw;
+//   }
+  
+//   a:link {
+//     text-decoration: none;
+//     color: black;
+//   }
+  
+//   a:visited { 
+//     text-decoration: none; 
+//     color: black;
+//    }
+  
+//   .nav-buttons {
+//     color :black;
+//     border: none;
+//     background-color: #CAFFD0;
+//     margin-left: -10px;
+//   }
+  
+//   #about-nav-button {
+//     border-left: none;
+//     border-top: black 3px solid;
+//     border-bottom: black 3px solid;
+//   }
+  
+//   #ad-nav-button {
+//     border-top: black 3px solid;
+//     border-bottom: black 3px solid;
+//   }
+  
+//   .nav-text {
+//     font-size: 20px;
+//   }
+//   }
+
+
+
+// MOBILE MEDIA QUERIES:
+// @media only screen and (min-width: 360px) and (max-width: 1280px) {}

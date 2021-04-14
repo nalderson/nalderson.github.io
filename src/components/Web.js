@@ -7,11 +7,15 @@ import snake from '../images/snake.png'
 
 export default function Web() {
 
+  function reset() {
+    location.reload()
+  }
+
   return <section>
     <div className="project-section">
       <div className="header">
         <h1 className="projects">PROJECTS</h1>
-        <button className="back-button" id="web-back"><Link to={'/'}><h1 className="back-button">✕</h1></Link></button>
+        <button onClick={reset} className="back-button" id="web-back"><Link to={'/'}><h1 className="back-button">✕</h1></Link></button>
       </div>
       <div className="individual-project">
         <h2 className="project-title">Picster</h2>
