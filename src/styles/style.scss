@@ -304,7 +304,11 @@ margin-right: 5px;
 // MEDIA QUERIES TO COVER - DESKTOP / TABLET:
 
 // Below media query not working
-@media only screen and (min-width: 2560px) {}
+@media only screen and (min-width: 2560px) {
+  .navbar { 
+    margin-left: 2130px !important;
+  }
+}
 
 @media only screen and (min-width: 1920px) {
   .navbar { 
@@ -385,12 +389,33 @@ margin-right: 5px;
 }
 
 // MEDIA QUERY NOT WORKING
-@media only screen and (min-width: 1680px) {}
-@media only screen and (min-width: 1600px) {}
-@media only screen and (min-width: 1536px) {}
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1680px) {
+  .navbar { 
+    margin-left: 1250px !important;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .navbar { 
+    margin-left: 1250px !important;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .navbar { 
+    margin-left: 1186px !important;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .navbar { 
+    margin-left: 1090px !important;
+  }
+}
 // MEDIA QUERY NOT WORKING
-@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+@media only screen and (min-width: 1366px) {
+  .navbar { 
+    margin-left: 986px !important;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -470,7 +495,6 @@ margin-right: 5px;
     font-size: 22px !important;
   }
 }
-
 
 // MOBILE NAV MEDIA QUERY:
 @media only screen and (min-width: 360px) and (max-width: 500px) {
