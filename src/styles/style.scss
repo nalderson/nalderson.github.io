@@ -13,7 +13,7 @@ body {
 }
 
 // NAVBAR DESKTOP:
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 501px) and (max-width: 2700px) {
   .navbar { 
     display: flex;
     align-items: flex-end;
@@ -84,7 +84,6 @@ a:visited {
 .click {
   color: #CAFFD0;
 }
-
 }
 
 // Homepage 
@@ -309,7 +308,7 @@ margin-right: 5px;
   }
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1920px) and (max-width: 2559px) {
   .navbar { 
     margin-left: 1490px !important;
   }
@@ -388,36 +387,44 @@ margin-right: 5px;
 }
 
 // MEDIA QUERY NOT WORKING
-@media only screen and (min-width: 1680px) {
+@media only screen and (min-width: 1681px) and (max-width: 1919px) {
   .navbar { 
     margin-left: 1250px !important;
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1601px) and (max-width: 1680px){
   .navbar { 
     margin-left: 1250px !important;
   }
 }
 
-@media only screen and (min-width: 1536px) {
+@media only screen and (min-width: 1536px) and (max-width: 1600px) {
   .navbar { 
     margin-left: 1186px !important;
   }
 }
-@media only screen and (min-width: 1440px) {
+
+@media only screen and (min-width: 1441px) and (max-width: 1535px) {
   .navbar { 
     margin-left: 1090px !important;
   }
 }
+
+@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+  .navbar { 
+    margin-left: 1090px !important;
+  }
+}
+
 // MEDIA QUERY NOT WORKING
-@media only screen and (min-width: 1366px) {
+@media only screen and (max-width: 1281px) and (max-width: 1366px) {
   .navbar { 
     margin-left: 986px !important;
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media screen and (min-width: 501px) and (max-width: 1280px) {
   .navbar { 
     margin-left: 875px !important;
 }
@@ -495,127 +502,147 @@ margin-right: 5px;
   }
 }
 
+
 // MOBILE NAV MEDIA QUERY:
-@media only screen and (min-width: 0px) and (max-width: 500px) {
+@media all and (min-width: 50px) and (max-width: 500px) {
   .navbar {
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    display: flex !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    align-items: none !important;
+    height: 30vh !important;
+    margin-left: -8px !important;
   }
   
   .nav-div {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
+    display: flex !important;
+    flex-direction: column!important;
+    width: 100vw !important;
+    height: inherit !important;
+    position: fixed !important;
+    text-align: center !important;
   }
   
   a:link {
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
   }
   
   a:visited { 
-    text-decoration: none; 
-    color: black;
+    text-decoration: none!important; 
+    color: black !important;
    }
   
- .nav-buttons {
-    color :black;
-    border: none;
+  .nav-buttons {
+    color :black !important;
+    border: none !important;
     background-color: #CAFFD0;
-    margin-left: -10px;
+    margin-left: -10px !important;
+    height: 10vh;
   }
   
   #about-nav-button {
-    border-left: none;
-    border-top: black 3px solid;
-    border-bottom: black 3px solid;
+    border-left: none !important;
+    border-top: black 3px solid !important;
+    border-bottom: black 3px solid !important;
   }
   
   #ad-nav-button {
-    border-top: black 3px solid;
-    border-bottom: black 3px solid;
+    border-top: black 3px solid !important;
+    border-bottom: black 3px solid !important;
   }
   
   .nav-text {
-    font-size: 20px;
+    font-size: 30px !important;
+    transform: none !important;
+    margin-top: 13px;
   }
 
-  .dark {
-  background-color: black;
-  }
-  .click {
-    color: #CAFFD0;
+  .name-title-email {
+    margin-left: 5px;   
   }
 
   .nat {
-    font-size: 20px !important;
+    font-size: 70px !important;
+    margin-top: 30px;
+  }
+
+  .web-design-dev {
+    font-size: 15px;
   }
 
   .title-email {
     font-size: 40px !important;
+    margin-bottom: 10px;
   }
 
-  .web-design-dev {
-    font-size: 10px !important;
-    }
-
-  .about-me-info {
-    font-size: 60px !important;
+  .peace {
+    width: 10px;
+    height: 15px;
+    margin-top: 18px;
+    margin-left: 1px;
   }
 
-  .back-button {
-    font-size: 110px !important;
-  }
+//   .web-design-dev {
+//     font-size: 10px !important;
+//     }
 
-  #about-back-text {
-    margin-left: 65px !important;
-  }
+//   .about-me-info {
+//     font-size: 60px !important;
+//   }
 
-  .about-email {
-    font-size: 60px !important;
-  }
+//   .back-button {
+//     font-size: 110px !important;
+//   }
 
-  .skills {
-    font-size: 15px !important;
-  }
+//   #about-back-text {
+//     margin-left: 65px !important;
+//   }
 
-  #web-back {
-    margin-left: 168px !important;
-  }
+//   .about-email {
+//     font-size: 60px !important;
+//   }
 
-  #ad-back {
-    margin-left: 65px !important;
-  }
+//   .skills {
+//     font-size: 15px !important;
+//   }
 
-  .projects {
-    font-size: 110px !important;
-  }
+//   #web-back {
+//     margin-left: 168px !important;
+//   }
 
-  .project-title {
-    font-size: 70px !important;
-  }
+//   #ad-back {
+//     margin-left: 65px !important;
+//   }
 
-  .project-description {
-    font-size: 17px !important;
-  }
+//   .projects {
+//     font-size: 110px !important;
+//   }
 
-  .tech-used {
-    font-size: 22px !important;
-  }
+//   .project-title {
+//     font-size: 70px !important;
+//   }
 
-  .tech-list {
-    font-size: 15px !important;
-  }
+//   .project-description {
+//     font-size: 17px !important;
+//   }
 
-  #project-web-link {
-    font-size: 22px !important;
-  }
+//   .tech-used {
+//     font-size: 22px !important;
+//   }
 
-  #project-git-link {
-    font-size: 22px !important;
-  }
+//   .tech-list {
+//     font-size: 15px !important;
+//   }
+
+//   #project-web-link {
+//     font-size: 22px !important;
+//   }
+
+//   #project-git-link {
+//     font-size: 22px !important;
+//   }
 
   }
 
