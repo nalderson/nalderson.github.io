@@ -5,6 +5,7 @@ import city from '../images/city1.png'
 import film from '../images/film.png'
 import snake from '../images/snake.png'
 
+
 export default function Web() {
 
   function reset() {

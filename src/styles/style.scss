@@ -387,44 +387,118 @@ margin-right: 5px;
 }
 
 // MEDIA QUERY NOT WORKING
-@media only screen and (min-width: 1681px) and (max-width: 1919px) {
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {
   .navbar { 
     margin-left: 1250px !important;
   }
 }
 
-@media only screen and (min-width: 1601px) and (max-width: 1680px){
+@media only screen and (min-width: 1600px) and (max-width: 1679px){
   .navbar { 
-    margin-left: 1250px !important;
+    margin-left: 1170px !important;
   }
 }
 
-@media only screen and (min-width: 1536px) and (max-width: 1600px) {
+@media only screen and (min-width: 1535px) and (max-width: 1599px) {
   .navbar { 
-    margin-left: 1186px !important;
+    margin-left: 1105px !important;
   }
 }
 
-@media only screen and (min-width: 1441px) and (max-width: 1535px) {
+@media only screen and (min-width: 1440px) and (max-width: 1534px) {
   .navbar { 
-    margin-left: 1090px !important;
+    margin-left: 1005px !important;
   }
 }
 
-@media only screen and (min-width: 1367px) and (max-width: 1440px) {
+@media only screen and (min-width: 1366px) and (max-width: 1439px) {
   .navbar { 
-    margin-left: 1090px !important;
+    margin-left: 940px !important;
   }
 }
 
 // MEDIA QUERY NOT WORKING
-@media only screen and (max-width: 1281px) and (max-width: 1366px) {
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
   .navbar { 
-    margin-left: 986px !important;
+    margin-left: 856px !important;
   }
+
+  .nav-text {
+    font-size: 80px !important;
+   }
+  
+  .nat {
+    font-size: 150px !important;
+  }
+  
+  .title-email {
+    font-size: 90px !important;
+  }
+  
+  .web-design-dev {
+    font-size: 20px !important;
+    }
+  
+  .about-me-info {
+    font-size: 95px !important;
+  }
+  
+  .back-button {
+    font-size: 170px !important;
+  }
+  
+  #about-back-text {
+    margin-left: 270px !important;
+  }
+  
+  .about-email {
+    font-size: 95px !important;
+  }
+  
+  .skills {
+    font-size: 24px !important;
+  }
+  
+  #web-back {
+    margin-left: 475px !important;
+  }
+  
+  #ad-back {
+    margin-left: 317px !important;
+  }
+  
+  .projects {
+    font-size: 170px !important;
+  }
+  
+  .project-title {
+    font-size: 100px !important;
+  }
+  
+  .project-description {
+    font-size: 30px !important;
+  }
+  
+  .tech-used {
+    font-size: 35px !important;
+  }
+  
+  .tech-list {
+    font-size: 25px !important;
+  }
+  
+  #project-web-link {
+    font-size: 35px !important;
+  }
+  
+  #project-git-link {
+    font-size: 35px;
+}
 }
 
-@media screen and (min-width: 501px) and (max-width: 1280px) {
+
+// LAST PRIORITY //
+@media screen and (min-width: 501px) and (max-width: 1279px) {
   .navbar { 
     margin-left: 875px !important;
 }
@@ -565,7 +639,7 @@ margin-right: 5px;
 
   .nat {
     font-size: 70px !important;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .web-design-dev {
@@ -584,66 +658,146 @@ margin-right: 5px;
     margin-left: 1px;
   }
 
-//   .web-design-dev {
-//     font-size: 10px !important;
-//     }
+  // About 
+.about-section {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-left: 5px;
+  margin-top: 0;
+}
 
-//   .about-me-info {
-//     font-size: 60px !important;
-//   }
+.about-me {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+}
 
-//   .back-button {
-//     font-size: 110px !important;
-//   }
+#about-back {
+  width: 5px;
+  height: 5px;
+  margin-top: 14px;
+  margin-right: -92px;
+}
 
-//   #about-back-text {
-//     margin-left: 65px !important;
-//   }
+#about-back-text {
+  margin-top: 14px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 
-//   .about-email {
-//     font-size: 60px !important;
-//   }
+.about-me-info {
+  font-size: 25px;
+  line-height: 0.90;
+  margin-top: 35px;
+}
 
-//   .skills {
-//     font-size: 15px !important;
-//   }
+.profile-pic {
+  width: 45vw;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 140px;
+  z-index: -2;
+}
 
-//   #web-back {
-//     margin-left: 168px !important;
-//   }
+.about-email {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  position: absolute;
+  bottom: 250px;
+  font-size: 25px;
+}
 
-//   #ad-back {
-//     margin-left: 65px !important;
-//   }
+.skills {
+  font-size: 10px;
+  width: 80vw;
+  position: absolute;
+  bottom: 200px;
+}
 
-//   .projects {
-//     font-size: 110px !important;
-//   }
+.i {
+  width: 50px;
+}
 
-//   .project-title {
-//     font-size: 70px !important;
-//   }
+// Projects
+.project-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
 
-//   .project-description {
-//     font-size: 17px !important;
-//   }
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  margin-top: 20px !important;
+}
 
-//   .tech-used {
-//     font-size: 22px !important;
-//   }
+.back-button {
+  font-size: 45px;
+  margin-top: 4px;
+  margin-left: 50px;
+}
 
-//   .tech-list {
-//     font-size: 15px !important;
-//   }
+#web-back {
+  margin-left: 20px;
+}
 
-//   #project-web-link {
-//     font-size: 22px !important;
-//   }
+.projects {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
-//   #project-git-link {
-//     font-size: 22px !important;
-//   }
+.project-title {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
 
-  }
+#city-title {
+  margin-bottom: 4px;
+}
+
+.project-img {
+  width: 93vw;
+}
+
+.project-description {
+  width: 93vw;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.tech-used {
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.tech-list {
+  font-size: 12px;
+  width: 93vw;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+}
+
+#project-web-link {
+  font-size: 20px;
+}
+
+#project-git-link {
+  font-size: 20px;
+}
+
+#ad-back {
+  margin-left: -26px;
+}
+}
 
 
