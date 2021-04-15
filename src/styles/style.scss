@@ -306,8 +306,95 @@ margin-right: 5px;
   .navbar { 
     margin-left: 2130px !important;
   }
+
+  .nav-text {
+    font-size: 110px !important;
+   }
+  
+  .nat {
+    font-size: 270px !important;
+  }
+  
+  .title-email {
+    font-size: 150px !important;
+  }
+  
+  .web-design-dev {
+    font-size: 30px !important;
+    }
+  
+  .about-me-info {
+    font-size: 90px !important;
+  }
+  
+  .profile-pic {
+    width: 25vw;
+    position: absolute;
+    margin-left: 820px;
+    margin-top: 235px;
+    z-index: -2;
+  }
+  
+  .back-button {
+    font-size: 170px !important;
+  }
+  
+  #about-back-text {
+    margin-left: 486px !important;
+  }
+  
+  .about-email {
+    font-size: 90px !important;
+  }
+  
+  .skills {
+    font-size: 30px !important;
+  }
+  
+  #web-back {
+    margin-left: 1075px !important;
+  }
+  
+  #ad-back {
+    margin-left: 917px !important;
+  }
+  
+  .projects {
+    font-size: 170px !important;
+  }
+  
+  .project-title {
+    font-size: 100px !important;
+  }
+  
+  .project-description {
+    font-size: 30px !important;
+  }
+  
+  .tech-used {
+    font-size: 35px !important;
+  }
+  
+  .tech-list {
+    font-size: 25px !important;
+  }
+  
+  #project-web-link {
+    font-size: 35px !important;
+  }
+  
+  #project-git-link {
+    font-size: 35px !important;
+  }
+
+
+
+
+
+
 }
 
+// MEDIA QUERY DONE
 @media only screen and (min-width: 1920px) and (max-width: 2559px) {
   .navbar { 
     margin-left: 1490px !important;
@@ -331,6 +418,14 @@ margin-right: 5px;
 
 .about-me-info {
   font-size: 95px !important;
+}
+
+.profile-pic {
+  width: 25vw;
+  position: absolute;
+  margin-left: 820px;
+  margin-top: 235px;
+  z-index: -2;
 }
 
 .back-button {
@@ -386,39 +481,425 @@ margin-right: 5px;
 }
 }
 
-// MEDIA QUERY NOT WORKING
+// MEDIA QUERY DONE
 @media only screen and (min-width: 1680px) and (max-width: 1919px) {
   .navbar { 
     margin-left: 1250px !important;
   }
+
+  .nav-text {
+    font-size: 90px !important;
+   }
+
+  .nat {
+    font-size: 190px !important;
+  }
+  
+  .title-email {
+    font-size: 100px !important;
+  }
+  
+  .about-me-info {
+    font-size: 60px !important;
+  }
+
+  .back-button {
+    margin-top: 3px;
+    font-size: 110px;
+  }
+
+  #about-back {
+    margin-top: -8px;
+  }
+
+  #about-back-text {
+    margin-left: 220px !important;
+  }
+
+  #web-back {
+    margin-left: 565px !important;
+  }
+  
+  #ad-back {
+    margin-left: 463px !important;
+  }
+  
+  .about-email {
+    margin-bottom: 150px;
+    font-size: 60px !important;
+  }
+  
+  .skills {
+    font-size: 18px !important;
+  }
+
+  .projects {
+    font-size: 110px !important;
+  }
+  
+  .project-title {
+    font-size: 70px !important;
+  }
+  
+  .project-description {
+    font-size: 20px !important;
+  }
+  
+  .tech-used {
+    font-size: 25px !important;
+  }
+  
+  .tech-list {
+    font-size: 15px !important;
+  }
+  
+  #project-web-link {
+    font-size: 25px !important;
+  }
+  
+  #project-git-link {
+    font-size: 25px;
 }
 
+}
+
+// MEDIA QUERY DONE
 @media only screen and (min-width: 1600px) and (max-width: 1679px){
   .navbar { 
     margin-left: 1170px !important;
   }
+
+  .nav-text {
+    font-size: 90px !important;
+   }
+
+  .nat {
+    font-size: 190px !important;
+  }
+  
+  .title-email {
+    font-size: 100px !important;
+  }
+  
+  .about-me-info {
+    font-size: 60px !important;
+  }
+
+  .back-button {
+    margin-top: 3px;
+    font-size: 110px;
+  }
+
+  #about-back {
+    margin-top: -8px;
+  }
+
+  #about-back-text {
+    margin-left: 170px !important;
+  }
+
+  #web-back {
+    margin-left: 465px !important;
+  }
+  
+  #ad-back {
+    margin-left: 363px !important;
+  }
+  
+  .about-email {
+    margin-bottom: 150px;
+    font-size: 60px !important;
+  }
+  
+  .skills {
+    font-size: 18px !important;
+  }
+
+  .projects {
+    font-size: 110px !important;
+  }
+  
+  .project-title {
+    font-size: 70px !important;
+  }
+  
+  .project-description {
+    font-size: 20px !important;
+  }
+  
+  .tech-used {
+    font-size: 25px !important;
+  }
+  
+  .tech-list {
+    font-size: 15px !important;
+  }
+  
+  #project-web-link {
+    font-size: 25px !important;
+  }
+  
+  #project-git-link {
+    font-size: 25px;
 }
 
+}
+
+
+// MEDIA QUERY DONE
 @media only screen and (min-width: 1535px) and (max-width: 1599px) {
   .navbar { 
     margin-left: 1105px !important;
   }
+
+  .nav-text {
+    font-size: 90px !important;
+   }
+
+  .nat {
+    font-size: 190px !important;
+  }
+  
+  .title-email {
+    font-size: 100px !important;
+  }
+  
+  .about-me-info {
+    font-size: 57px !important;
+  }
+
+  .profile-pic {
+    width: 25vw;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 200px;
+    z-index: -2;
+  }
+
+  .back-button {
+    margin-top: 3px;
+    font-size: 110px;
+  }
+
+  #about-back {
+    margin-top: -8px;
+  }
+
+  #about-back-text {
+    margin-left: 158px !important;
+  }
+
+  #web-back {
+    margin-left: 415px !important;
+  }
+  
+  #ad-back {
+    margin-left: 313px !important;
+  }
+  
+  .about-email {
+    margin-bottom: 150px;
+    font-size: 57px !important;
+  }
+  
+  .skills {
+    font-size: 18px !important;
+  }
+
+  .projects {
+    font-size: 110px !important;
+  }
+  
+  .project-title {
+    font-size: 70px !important;
+  }
+  
+  .project-description {
+    font-size: 20px !important;
+  }
+  
+  .tech-used {
+    font-size: 25px !important;
+  }
+  
+  .tech-list {
+    font-size: 15px !important;
+  }
+  
+  #project-web-link {
+    font-size: 25px !important;
+  }
+  
+  #project-git-link {
+    font-size: 25px;
 }
 
+}
+
+// MEDIA QUERY DONE
 @media only screen and (min-width: 1440px) and (max-width: 1534px) {
   .navbar { 
     margin-left: 1005px !important;
   }
+
+  .nat {
+    font-size: 170px !important;
+  }
+  
+  .title-email {
+    font-size: 100px !important;
+  }
+  
+  .about-me-info {
+    font-size: 55px !important;
+  }
+
+  .profile-pic {
+    width: 25vw;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 200px;
+    z-index: -2;
+  }
+
+  .back-button {
+    margin-top: 3px;
+    font-size: 130px;
+  }
+
+  #about-back-text {
+    margin-left: 104px !important;
+    margin-top: -5;
+  }
+  
+  .about-email {
+    margin-bottom: 150px;
+    font-size: 55px !important;
+  }
+  
+  .skills {
+    font-size: 18px !important;
+  }
+  
+  #web-back {
+    margin-left: 215px !important;
+  }
+  
+  #ad-back {
+    margin-left: 95px !important;
+  }
+
+  .projects {
+    font-size: 130px !important;
+  }
+  
+  .project-title {
+    font-size: 90px !important;
+  }
+  
+  .project-description {
+    font-size: 25px !important;
+  }
+  
+  .tech-used {
+    font-size: 30px !important;
+  }
+  
+  .tech-list {
+    font-size: 20px !important;
+  }
+  
+  #project-web-link {
+    font-size: 30px !important;
+  }
+  
+  #project-git-link {
+    font-size: 30px;
+}
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1439px) {
+// MEDIA QUERY = DONE
+@media only screen and (min-width: 1365px) and (max-width: 1439px) {
   .navbar { 
     margin-left: 940px !important;
   }
+
+  .nat {
+    font-size: 150px !important;
+  }
+  
+  .title-email {
+    font-size: 90px !important;
+  }
+  
+  .about-me-info {
+    font-size: 50px !important;
+  }
+
+  .profile-pic {
+    width: 25vw;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 200px;
+    z-index: -2;
+  }
+
+  .back-button {
+    margin-top: 3px;
+  }
+
+  #about-back-text {
+    margin-left: 104px !important;
+  }
+  
+  .about-email {
+    margin-bottom: 150px;
+    font-size: 50px !important;
+  }
+  
+  .skills {
+    font-size: 15px !important;
+  }
+  
+  #web-back {
+    margin-left: 257px !important;
+  }
+  
+  #ad-back {
+    margin-left: 155px !important;
+  }
+
+  .projects {
+    font-size: 110px !important;
+  }
+  
+  .project-title {
+    font-size: 80px !important;
+  }
+  
+  .project-description {
+    font-size: 20px !important;
+  }
+  
+  .tech-used {
+    font-size: 25px !important;
+  }
+  
+  .tech-list {
+    font-size: 15px !important;
+  }
+  
+  #project-web-link {
+    font-size: 25px !important;
+  }
+  
+  #project-git-link {
+    font-size: 25px;
+}
 }
 
-// MEDIA QUERY NOT WORKING
-@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+// MEDIA QUERY = DONE
+@media only screen and (min-width: 1280px) and (max-width: 1364px) {
   .navbar { 
     margin-left: 856px !important;
   }
@@ -435,64 +916,69 @@ margin-right: 5px;
     font-size: 90px !important;
   }
   
-  .web-design-dev {
-    font-size: 20px !important;
-    }
-  
   .about-me-info {
-    font-size: 95px !important;
+    font-size: 50px !important;
+  }
+
+  .profile-pic {
+    width: 25vw;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 200px;
+    z-index: -2;
   }
   
   .back-button {
-    font-size: 170px !important;
+    font-size: 110px !important;
   }
   
   #about-back-text {
-    margin-left: 270px !important;
+    margin-left: 75px !important;
   }
   
   .about-email {
-    font-size: 95px !important;
+    margin-bottom: 150px;
+    font-size: 50px !important;
   }
   
   .skills {
-    font-size: 24px !important;
+    font-size: 15px !important;
   }
   
   #web-back {
-    margin-left: 475px !important;
+    margin-left: 177px !important;
   }
   
   #ad-back {
-    margin-left: 317px !important;
+    margin-left: 75px !important;
   }
   
   .projects {
-    font-size: 170px !important;
+    font-size: 110px !important;
   }
   
   .project-title {
-    font-size: 100px !important;
+    font-size: 80px !important;
   }
   
   .project-description {
-    font-size: 30px !important;
+    font-size: 20px !important;
   }
   
   .tech-used {
-    font-size: 35px !important;
-  }
-  
-  .tech-list {
     font-size: 25px !important;
   }
   
+  .tech-list {
+    font-size: 15px !important;
+  }
+  
   #project-web-link {
-    font-size: 35px !important;
+    font-size: 25px !important;
   }
   
   #project-git-link {
-    font-size: 35px;
+    font-size: 25px;
 }
 }
 
