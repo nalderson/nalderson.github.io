@@ -927,11 +927,11 @@ margin-right: 5px;
   }
   
   .about-me-info {
-    font-size: 50px !important;
+    font-size: 48px !important;
   }
 
   .profile-pic {
-    width: 25vw;
+    width: 20vw;
     position: absolute;
     margin-left: 450px;
     margin-top: 200px;
@@ -947,8 +947,8 @@ margin-right: 5px;
   }
   
   .about-email {
-    margin-bottom: 150px;
-    font-size: 50px !important;
+    margin-bottom: 80px;
+    font-size: 48px !important;
   }
   
   .skills {
@@ -1073,8 +1073,8 @@ margin-right: 5px;
 }
 
 
-// MOBILE NAV MEDIA QUERY:
-@media all and (min-width: 50px) and (max-width: 500px) {
+// MOBILE NAV MEDIA QUERIES:
+@media all and (min-width: 50px) and (max-width: 375px) {
   .navbar {
     display: flex !important;
     position: fixed !important;
@@ -1092,6 +1092,14 @@ margin-right: 5px;
     height: inherit !important;
     position: fixed !important;
     text-align: center !important;
+  }
+
+  .click {
+    color: #CAFFD0 !important;
+  }
+
+  .dark {
+    background-color: black !important;
   }
   
   a:link {
@@ -1124,9 +1132,9 @@ margin-right: 5px;
   }
   
   .nav-text {
-    font-size: 30px !important;
+    font-size: 35px !important;
     transform: none !important;
-    margin-top: 13px;
+    margin-top: 18px;
   }
 
   .name-title-email {
@@ -1140,6 +1148,11 @@ margin-right: 5px;
 
   .web-design-dev {
     font-size: 15px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 45vh;
   }
 
   .title-email {
@@ -1296,4 +1309,239 @@ margin-right: 5px;
 }
 }
 
+// 414 MEDIA:
+@media all and (min-width: 376px) and (max-width: 500px) {
+  .navbar {
+    display: flex !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    align-items: none !important;
+    height: 30vh !important;
+    margin-left: -8px !important;
+  }
+  
+  .nav-div {
+    display: flex !important;
+    flex-direction: column!important;
+    width: 100vw !important;
+    height: inherit !important;
+    position: fixed !important;
+    text-align: center !important;
+  }
+
+  .click {
+    color: #CAFFD0 !important;
+  }
+
+  .dark {
+    background-color: black !important;
+  }
+  
+  a:link {
+    text-decoration: none !important;
+    color: black !important;
+  }
+  
+  a:visited { 
+    text-decoration: none!important; 
+    color: black !important;
+   }
+  
+  .nav-buttons {
+    color :black !important;
+    border: none !important;
+    background-color: #CAFFD0;
+    margin-left: -10px !important;
+    height: 10vh;
+  }
+  
+  #about-nav-button {
+    border-left: none !important;
+    border-top: black 3px solid !important;
+    border-bottom: black 3px solid !important;
+  }
+  
+  #ad-nav-button {
+    border-top: black 3px solid !important;
+    border-bottom: black 3px solid !important;
+  }
+  
+  .nav-text {
+    font-size: 35px !important;
+    transform: none !important;
+    margin-top: 15px;
+  }
+
+  .name-title-email {
+    margin-left: 5px;   
+  }
+
+  .nat {
+    font-size: 70px !important;
+    margin-top: 20px;
+  }
+
+  .web-design-dev {
+    font-size: 15px;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 45vh;
+  }
+
+  .title-email {
+    font-size: 40px !important;
+    margin-bottom: 10px;
+  }
+
+  .peace {
+    width: 10px;
+    height: 15px;
+    margin-top: 18px;
+    margin-left: 1px;
+  }
+
+  // About 
+.about-section {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.about-me {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#about-back {
+  width: 5px;
+  height: 5px;
+  margin-top: 14px;
+  margin-right: -92px;
+}
+
+#about-back-text {
+  margin-top: 14px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.about-me-info {
+  font-size: 25px;
+  line-height: 0.90;
+  margin-top: 35px;
+}
+
+.profile-pic {
+  width: 45vw;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 140px;
+  z-index: -2;
+}
+
+.about-email {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  position: absolute;
+  bottom: 250px;
+  font-size: 25px;
+}
+
+.skills {
+  font-size: 10px;
+  width: 80vw;
+  position: absolute;
+  bottom: 200px;
+}
+
+.i {
+  width: 50px;
+}
+
+// Projects
+.project-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  margin-top: 20px !important;
+}
+
+.back-button {
+  font-size: 45px;
+  margin-top: 4px;
+  margin-left: 50px;
+}
+
+#web-back {
+  margin-left: 20px;
+}
+
+.projects {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.project-title {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+#city-title {
+  margin-bottom: 4px;
+}
+
+.project-img {
+  width: 93vw;
+}
+
+.project-description {
+  width: 93vw;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.tech-used {
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.tech-list {
+  font-size: 12px;
+  width: 93vw;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+}
+
+#project-web-link {
+  font-size: 20px;
+}
+
+#project-git-link {
+  font-size: 20px;
+}
+
+#ad-back {
+  margin-left: -26px;
+}
+}
 

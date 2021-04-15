@@ -13,7 +13,7 @@ export default function Navbar() {
   const [webColor, updateWebColor] = useState(false)
   const [advertColor, updateAdvertColor] = useState(false)
 
-  function reload() { 
+  function reload() {
     if (window.location.href === 'https://natasha-alderson.com/about-me/') {
       updateAbout(true)
       updateAboutColor(true)
@@ -37,11 +37,11 @@ export default function Navbar() {
       updateWebColor(false)
     } else {
       updateAdvert(false)
+      updateAdvertColor(false)
       updateAbout(false)
+      updateAboutColor(false)
       updateWeb(false)
-      webColor(false)
-      aboutColor(false)
-      advertColor(false)
+      updateWebColor(false)
     }
   }
 
