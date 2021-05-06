@@ -12,8 +12,8 @@ body {
   height: 100vh;
 }
 
-// NAVBAR DESKTOP:
-@media only screen and (min-width: 501px) and (max-width: 2700px) {
+// NAVBAR DESKTOP: 
+@media only screen and (min-width: 501px) and (max-width: 5500px) {
   .navbar { 
     display: flex;
     align-items: flex-end;
@@ -301,15 +301,255 @@ margin-right: 5px;
 
 
 // MEDIA QUERIES TO COVER - DESKTOP / TABLET:
-
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 5120px) and (max-width: 5500px) {
   .navbar { 
-    margin-left: 2130px !important;
+    margin-left: 4190px !important;
+  }
+
+  .nav-buttons {
+    width: 300px;
+  }
+
+  .nav-text {
+    font-size: 190px !important;
+   }
+
+   #about-nav-button {
+    border-left: black 6px solid;
+    border-bottom: none;
+  }
+  
+  #web-nav-button {
+    border-left: black 6px solid;
+  }
+  
+  #ad-nav-button {
+    border-left: black 6px solid;
+    border-bottom: none;
+  }
+  
+  .nat {
+    font-size: 450px !important;
+  }
+  
+  .title-email {
+    font-size: 260px !important;
+  }
+  
+  .web-design-dev {
+    font-size: 70px !important;
+    }
+
+    .peace {
+      width: 62px;
+      height: 68px;
+      margin-top: 82px;
+      margin-left: 15px;
+    }
+  
+  .about-me-info {
+    font-size: 190px !important;
+  }
+  
+  .profile-pic {
+    width: 25vw;
+    position: absolute;
+    margin-left: 1820px;
+    margin-top: 335px;
+    z-index: -2;
+  }
+  
+  .back-button {
+    font-size: 300px !important;
+  }
+  
+  #about-back-text {
+    margin-left: 786px !important;
+  }
+  
+  .about-email {
+    font-size: 190px !important;
+  }
+  
+  .skills {
+    font-size: 60px !important;
+  }
+  
+  #web-back {
+    margin-left: 2325px !important;
+  }
+  
+  #ad-back {
+    margin-left: 2055px !important;
+  }
+  
+  .projects {
+    font-size: 300px !important;
+  }
+  
+  .project-title {
+    font-size: 150px !important;
+  }
+  
+  .project-description {
+    font-size: 55px !important;
+  }
+  
+  .tech-used {
+    font-size: 60px !important;
+  }
+  
+  .tech-list {
+    font-size: 55px !important;
+  }
+  
+  #project-web-link {
+    font-size: 60px !important;
+  }
+  
+  #project-git-link {
+    font-size: 60px !important;
+  }
+}
+
+// doing now
+@media only screen and (min-width: 4096px) and (max-width: 5119px) {
+  .navbar { 
+    margin-left: 3160px !important;
+  }
+
+  .nav-buttons {
+    width: 300px;
+  }
+
+  .nav-text {
+    font-size: 170px !important;
+   }
+
+   #about-nav-button {
+    border-left: black 6px solid;
+    border-bottom: none;
+  }
+  
+  #web-nav-button {
+    border-left: black 6px solid;
+  }
+  
+  #ad-nav-button {
+    border-left: black 6px solid;
+    border-bottom: none;
+  }
+  
+  .nat {
+    font-size: 395px !important;
+  }
+  
+  .title-email {
+    font-size: 225px !important;
+  }
+  
+  .web-design-dev {
+    font-size: 50px !important;
+    }
+
+    .peace {
+      width: 42px;
+      height: 48px;
+      margin-top: 60px;
+      margin-left: 10px;
+    }
+  
+  .about-me-info {
+    font-size: 150px !important;
+  }
+  
+  .profile-pic {
+    width: 25vw;
+    position: absolute;
+    margin-left: 1520px;
+    margin-top: 335px;
+    z-index: -2;
+  }
+  
+  .back-button {
+    font-size: 250px !important;
+  }
+  
+  #about-back-text {
+    margin-left: 486px !important;
+  }
+  
+  .about-email {
+    font-size: 150px !important;
+  }
+  
+  .skills {
+    font-size: 50px !important;
+  }
+  
+  #web-back {
+    margin-left: 1625px !important;
+  }
+  
+  #ad-back {
+    margin-left: 1395px !important;
+  }
+  
+  .projects {
+    font-size: 250px !important;
+  }
+  
+  .project-title {
+    font-size: 150px !important;
+  }
+  
+  .project-description {
+    font-size: 55px !important;
+  }
+  
+  .tech-used {
+    font-size: 60px !important;
+  }
+  
+  .tech-list {
+    font-size: 55px !important;
+  }
+  
+  #project-web-link {
+    font-size: 60px !important;
+  }
+  
+  #project-git-link {
+    font-size: 60px !important;
+  }
+}
+
+@media only screen and (min-width: 2560px) and (max-width: 4095px) {
+  .navbar { 
+    margin-left: 1955px !important;
   }
 
   .nav-text {
     font-size: 110px !important;
    }
+
+   .nav-buttons {
+    width: 200px;
+  }
+
+  #about-nav-button {
+    border-left: black 4px solid;
+    border-bottom: none;
+  }
+  
+  #web-nav-button {
+    border-left: black 4px solid;
+  }
+  
+  #ad-nav-button {
+    border-left: black 4px solid;
+    border-bottom: none;
+  }
   
   .nat {
     font-size: 270px !important;
@@ -347,7 +587,7 @@ margin-right: 5px;
   }
   
   #about-back-text {
-    margin-left: 486px !important;
+    margin-left: 336px !important;
   }
   
   .about-email {
@@ -359,11 +599,11 @@ margin-right: 5px;
   }
   
   #web-back {
-    margin-left: 1075px !important;
+    margin-left: 925px !important;
   }
   
   #ad-back {
-    margin-left: 917px !important;
+    margin-left: 767px !important;
   }
   
   .projects {
@@ -371,32 +611,128 @@ margin-right: 5px;
   }
   
   .project-title {
-    font-size: 100px !important;
+    font-size: 110px !important;
   }
   
   .project-description {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
   
   .tech-used {
-    font-size: 35px !important;
+    font-size: 40px !important;
   }
   
   .tech-list {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
   
   #project-web-link {
-    font-size: 35px !important;
+    font-size: 40px !important;
   }
   
   #project-git-link {
-    font-size: 35px !important;
+    font-size: 40px !important;
   }
-
 }
 
-@media only screen and (min-width: 1920px) and (max-width: 2559px) {
+@media only screen and (min-width: 2304px) and (max-width: 2559px) {
+  .navbar { 
+    margin-left: 1680px !important;
+  }
+
+.nav-text {
+  font-size: 120px !important;
+ }
+
+ .nav-buttons {
+  width: 200px;
+}
+
+.nat {
+  font-size: 260px !important;
+}
+
+.title-email {
+  font-size: 145px !important;
+}
+
+.web-design-dev {
+  font-size: 40px !important;
+  }
+
+  .peace {
+    width: 27px;
+    height: 34px;
+    margin-top: 50px;
+    margin-left: 5px;
+  }
+
+.about-me-info {
+  font-size: 107px !important;
+}
+
+.profile-pic {
+  width: 30vw;
+  position: absolute;
+  margin-left: 820px;
+  margin-top: 260px;
+  z-index: -2;
+}
+
+.back-button {
+  font-size: 170px !important;
+}
+
+#about-back-text {
+  margin-left: 240px !important;
+}
+
+.about-email {
+  font-size: 105px !important;
+}
+
+.skills {
+  font-size: 28px !important;
+}
+
+#web-back {
+  margin-left: 675px !important;
+}
+
+#ad-back {
+  margin-left: 517px !important;
+}
+
+.projects {
+  font-size: 170px !important;
+}
+
+.project-title {
+  font-size: 110px !important;
+}
+
+.project-description {
+  font-size: 35px !important;
+}
+
+.tech-used {
+  font-size: 40px !important;
+}
+
+.tech-list {
+  font-size: 30px !important;
+}
+
+#project-web-link {
+  font-size: 40px !important;
+}
+
+#project-git-link {
+  font-size: 40px !important;
+}
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2303px) {
   .navbar { 
     margin-left: 1490px !important;
   }
@@ -922,9 +1258,9 @@ margin-right: 5px;
   }
 
   .profile-pic {
-    width: 20vw;
+    width: 22vw;
     position: absolute;
-    margin-left: 450px;
+    margin-left: 425px;
     margin-top: 200px;
     z-index: -2;
   }
@@ -982,7 +1318,6 @@ margin-right: 5px;
     font-size: 25px;
 }
 }
-
 
 @media screen and (min-width: 501px) and (max-width: 1279px) {
   .navbar { 
@@ -1161,8 +1496,8 @@ margin-right: 5px;
   .peace {
     width: 10px;
     height: 15px;
-    margin-top: 18px;
-    margin-left: 1px;
+    margin-top: 2px;
+    margin-left: 3px;
   }
 
   // About 
@@ -1309,8 +1644,7 @@ margin-right: 5px;
 
 
 // 375 MEDIA:
-@media all and (min-width: 361px) and (max-width: 375px),
-screen and (min-height: 50px) and (max-height: 745px)
+@media all and (min-width: 361px) and (max-width: 375px)
 {
   .navbar {
     display: flex !important;
@@ -1407,8 +1741,8 @@ screen and (min-height: 50px) and (max-height: 745px)
   .peace {
     width: 10px;
     height: 15px;
-    margin-top: 18px;
-    margin-left: 1px;
+    margin-top: 2px;
+    margin-left: 3px;
   }
 
   // About 
@@ -1634,7 +1968,6 @@ screen and (min-height: 50px) and (max-height: 745px)
   .web-design-dev {
     font-size: 15px;
     margin: 0;
-    padding-top: 200px !important;
   }
 
   .footer {
@@ -1650,8 +1983,8 @@ screen and (min-height: 50px) and (max-height: 745px)
   .peace {
     width: 10px;
     height: 15px;
-    margin-top: 18px;
-    margin-left: 1px;
+    margin-top: 2px;
+    margin-left: 3px;
   }
 
   // About 
