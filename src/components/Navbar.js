@@ -48,7 +48,7 @@ export default function Navbar() {
   return <section className="navbar">
     <div className="nav-div">
       <button onClick={reload} className={about ? 'nav-buttons dark' : 'nav-buttons'} id="about-nav-button"><Link to={'/about-me/'}><p onClick={reload} className={aboutColor ? 'nav-text click' : 'nav-text'}>ABOUT</p></Link></button>
-      <button onClick={reload} className={web ? 'nav-buttons dark' : 'nav-buttons'} id="web-nav-button"><Link to={'/web-development/'}><p onClick={reload} className={webColor ? 'nav-text click' : 'nav-text'}>DEVELOPMENT</p></Link></button>
+      <button onClick={reload} className={web ? 'nav-buttons dark' : 'nav-buttons'} id="web-nav-button"><Link to={'/web-development/'}><p id="dev-text" onClick={reload} className={webColor ? 'nav-text click' : 'nav-text'}>DEVELOPMENT</p></Link></button>
       <button onClick={reload} className={advert ? 'nav-buttons dark' : 'nav-buttons'} id="ad-nav-button"><Link to={'/advertising/'}><p onClick={reload} className={advertColor ? 'nav-text click' : 'nav-text'}>ADVERTISING</p></Link></button>
     </div>
   </section>

@@ -82,7 +82,7 @@ export default function Ads() {
       <div className="individual-project">
         <h2 className="project-title" id="pixel-title">Google Pixel</h2>
         <img className="project-img" src={`/${google}`}/>
-        <p className="project-description">Was the Assistant Digital Producer on the Google Pixel phone launch, working with Droga5 to streamline all assets across Europe.
+        <p className="project-description">Was the Assistant Digital Producer on the Google Pixel phone launch, working to streamline all assets across Europe.
         </p>
         <h4 className="tech-used">MEDIA</h4>
         <div className="tech-list">

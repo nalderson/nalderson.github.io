@@ -44,7 +44,7 @@ export default function Web() {
           <p>ReactJS | SCSS | Express | Node.js | Mongoose | MongoDB | Git | Github | Babel | Chrome | Heroku | NPM | Visual Studio Code |<br></br> React-Testing-Library</p>
         </div>
         <div className="project-links">
-          <a target="blank" id="project-web-link" href="https://cityscapes-natasha.herokuapp.com/">→View Site</a>
+          <a target="blank" id="project-web-link" href="https://project-cityscapes.herokuapp.com/">→View Site</a>
           <a target="blank" id="project-git-link" href="https://github.com/nalderson/project-3/blob/main/README.md">→View Github</a>
         </div>
       </div>
